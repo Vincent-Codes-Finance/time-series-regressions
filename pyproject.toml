@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "time-series-regressions"
+version = "0.1.0"
+description = "Companion code for the \"Estimating standard errors in time series data with Python and statsmodels\" video by Vincent Codes Finance"
+authors = ["Vincent Grégoire <vincent@codes.finance>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.0"
+statsmodels = "^0.14.1"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
